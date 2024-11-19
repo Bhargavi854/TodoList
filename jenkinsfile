@@ -5,19 +5,19 @@ pipeline {
         timeout(time: 1, unit: 'SECONDS')
     }
     stages {
-        stage('build') {
+        stage("build") {
             steps {
-                echo 'application building'
+                echo "application building"
             }
       }
-stage('test') {
+stage("test") {
             steps {
-                echo 'application building'
+                echo "application building"
             }
       }
-stage('deploy') {
+stage("deploy") {
             steps {
-                echo 'application building'
+                echo "application building"
             }
       }
 }
